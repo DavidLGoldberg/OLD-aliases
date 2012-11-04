@@ -101,6 +101,10 @@ alias stopstamponme='~/stamponme/stop_stamponme'
 #---
 
 #---
+#heroku
+alias fs='foreman start -f /home/ubuntu/hero-tmpl/Procfile'
+
+#---
 #Aliases
 alias editaliases='vim ~/.bash_aliases'
 alias ea='vim ~/.bash_aliases;. ~/.bashrc'

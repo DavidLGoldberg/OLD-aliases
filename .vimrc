@@ -4,7 +4,8 @@ set shiftwidth=4
 set expandtab
 
 set ignorecase
-set nobackup
+"set nobackup
+set backupdir=~/.tmp_vim
 set nowrap
 
 map <C-h> :split<Enter><C-w><C-w>:FufCoverageFile<Enter>
