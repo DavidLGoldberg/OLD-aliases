@@ -3,6 +3,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+autocmd FileType make setlocal noexpandtab
+
 set ignorecase
 "set nobackup
 set backupdir=~/.tmp_vim
